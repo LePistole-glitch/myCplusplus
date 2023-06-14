@@ -2,9 +2,9 @@
 //JESUS CHAVEZ ARIAS
 #include <iostream>
 #include <fstream>
-#include <vector>
 
 using namespace std;
+
 //Funcion Booleana que verifica si el texto en la linea es Palindromo
 bool palindromoCheck(string palindromo){
     string ayuda = "";
@@ -12,12 +12,9 @@ bool palindromoCheck(string palindromo){
     {
         ayuda = ayuda + palindromo[i];
     }
-    
     if(palindromo == ayuda){
-        //cout<<"Es un palindromo \n";
         return true;
     }else{
-        //cout<<"No es un palindromo \n";
         return false;
     }
 }
